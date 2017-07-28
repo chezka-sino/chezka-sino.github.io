@@ -11,7 +11,7 @@ h1,h2,h3 {
 
 /* header */
 #header-main {
-    background-color: #a3080e;
+    background-color: #173042;
     color: #fff;
     min-height: 100px;
 }
@@ -52,8 +52,8 @@ h1,h2,h3 {
 }
 
 #nav-main button.btn {
-    background-color: #B82228 !important;
-    color: #fff;    
+    background-color: #10375d !important;
+    color: #fff;
 }
 
 /* splash - carousel */
@@ -66,6 +66,7 @@ h1,h2,h3 {
     height: 400px;
     background-repeat:no-repeat;
     background-size:cover;
+    background-position: bottom;
     text-align: center;
     color: #fff;
 }
@@ -100,12 +101,13 @@ h1,h2,h3 {
 }
 
 .featured-content {
-    background-color: #f3f5f8;
+    background-color: #cfdfda;
+    color: #000;
     padding: 30px 0;
 }
 
-.featured-content .card {    
-    background-size: 180%;    
+.featured-content .card {
+    background-size: 180%;
     background-position: bottom;
     height: 250px;
     margin-bottom: 20px;
@@ -130,7 +132,7 @@ h1,h2,h3 {
     -moz-transition: opacity 1s ease-in;
     -ms-transition: opacity 1s ease-in;
     -o-transition: opacity 1s ease-in;
-    -webkit-transition: opacity 1s ease-in;    
+    -webkit-transition: opacity 1s ease-in;
 }
 
 .featured-content .card:hover {
@@ -144,8 +146,8 @@ h1,h2,h3 {
 
 /* subscribe */
 #subscribe-to-newsletter {
-    background-image: url(../img/city-streets-skyline-buildings.jpg);
-    background-position: bottom;
+    background-image: url(../img/usf_view.jpeg);
+    background-position: center;
     background-size: 120%;
     padding: 50px 0 80px 0;
     position: relative;
@@ -154,7 +156,7 @@ h1,h2,h3 {
     -moz-transition: background-size 1s ease-in;
     -ms-transition: background-size 1s ease-in;
     -o-transition: background-size 1s ease-in;
-    -webkit-transition: background-size 1s ease-in;    
+    -webkit-transition: background-size 1s ease-in;
 }
 
 #subscribe-to-newsletter:hover {
@@ -183,22 +185,22 @@ h1,h2,h3 {
 }
 
 #subscribe-to-newsletter form button.btn {
-    background-color: #B82228 !important;
+    background-color: #869684 !important;
     color: #fff;
     height: 50px;
 }
 
 /* footer */
 #footer-main {
-    background-color: #B82228;
-    color: #DBA2A2;
+    background-color: #236477;
+    color: #FFF;
 }
 
 #footer-main h4 {
     font-size: 16px;
     padding-bottom: 10px;
-    border-bottom: 1px #DBA2A2 solid;
-    color: #fff;
+    border-bottom: 1px #e0e2d5 solid;
+    color: #e0e2d5;
 }
 
 #footer-main ul {
@@ -207,7 +209,7 @@ h1,h2,h3 {
 }
 
 #footer-main ul li a {
-    color: #DBA2A2;
+    color: #FFF;
 }
 
 #footer-links {
@@ -216,7 +218,7 @@ h1,h2,h3 {
 
 #footer-links .fa-phone {
     margin-right: 8px;
-} 
+}
 
 #footer-links .fa-envelope {
     margin-right: 6px;
@@ -224,12 +226,12 @@ h1,h2,h3 {
 
 #footer-links .fa-map-marker {
     margin-left: 2px;
-    margin-right: 10px;    
+    margin-right: 10px;
 }
 
 #footer-copyright {
     text-align: center;
-    background-color: #a3080e;
+    background-color: #173042;
     padding: 20px 0;
     color: #fff;
     font-size: 12px;
@@ -256,5 +258,5 @@ h1,h2,h3 {
     #header-main {min-height: inherit; padding: 30px 0;}
     #header-main * {text-align: center !important; line-height: normal !important;}
     #footer-links {text-align: center;}
-    .pull-left, .pull-right {float: none !important;}    
+    .pull-left, .pull-right {float: none !important;}
 }
