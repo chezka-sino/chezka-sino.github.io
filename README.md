@@ -1,2 +1,2 @@
 # chezka-portfolio.github.io
-Online portfolio
+Personal website
