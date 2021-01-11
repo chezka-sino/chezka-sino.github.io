@@ -638,7 +638,6 @@
                                         </figcaption>
                                     </figure>
                                 </div>
-                                
                                 <div class="grid-item col-md-4 col-sm-6 col-xs-12 data-science data-visualization">
                                     <figure>
                                         <img src="assets/images/proj-simpsons.png" alt="img04">
@@ -646,8 +645,7 @@
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Simulating Simpson's Paradox</h5>
                                             <span class="sub-title">Confounding Variable Simulation</span>
-                                            <a href="assets/simpsons-project.pdf" target="_blank"></a>
-                                            <!-- <a data-fancybox data-src="#mh"></a> -->
+                                            <a href="assets/simpsons-project.pdf" data-fancybox data-src="#simpsons" target="_blank"></a>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -658,7 +656,8 @@
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">SF Fire Department Calls</h5>
                                             <span class="sub-title">Data Visualization</span>
-                                            <a href="https://usf-cs360-2017.github.io/midterm-mcs/index.html" target="_blank"></a>
+                                            <a href="https://usf-cs360-2017.github.io/midterm-mcs/index.html" target="_blank"
+                                                data-fancybox data-src="#fire-dept"></a>
                                             <!-- <a href="assets/images/portfolio/g4.png" data-fancybox data-src="#mh"></a> -->
                                         </figcaption>
                                     </figure>
@@ -670,7 +669,7 @@
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">SF Tree Maintenance Service Requests</h5>
                                             <span class="sub-title">Map Data Visualization</span>
-                                            <a href="https://usf-cs360-2017.github.io/homework3-chezka-sino/" target="_blank"></a>
+                                            <a href="https://usf-cs360-2017.github.io/homework3-chezka-sino/" data-fancybox data-src="#tree-maintenance" target="_blank"></a>
                                             <!-- <a href="assets/images/portfolio/g8.png" data-fancybox data-src="#mh"></a> -->
                                         </figcaption>
                                     </figure>
@@ -682,8 +681,7 @@
                                             <i class="fa fa-search"></i>
                                             <h5 class="title">Java 8 API Visualization</h5>
                                             <span class="sub-title">Hierarchical Data Visualization</span>
-                                            <a href="https://usf-cs360-2017.github.io/homework4-chezka-sino/" target="_blank"></a>
-                                            <!-- <a href="assets/images/portfolio/g6.png" data-fancybox data-src="#mh"></a> -->
+                                            <a href="https://usf-cs360-2017.github.io/homework4-chezka-sino/" data-fancybox data-src="#java-hierarchy" target="_blank"></a>
                                         </figcaption>
                                     </figure>
                                 </div>    
@@ -812,6 +810,111 @@
                     </div>
                 </div>
             </div>
+            <div class="mh-portfolio-modal" id="fire-dept">
+                <div class="container">
+                    <div class="row mh-portfolio-modal-inner">
+                        <div class="col-sm-5">
+                            <h2>SF Fire Department Calls</h2>
+                            <p>Exploratory data visualizations of Fire Department Calls for Services in San Francisco on December 2016</p>       
+                            
+                            <p>This data set includes information about 911 calls and fire department call services in San Francisco on December 2016. Each of the 911 calls is recorded with an incident number, time, location, and type. The time given includes the date and time of the day. The location includes an address, zip code, and neighborhood district. The call type includes citizen assist, traffic collision, citizen assist, medical incident,vehicle fire, structure fire, outside fire, fuel spill, gas leak, electrical hazard, elevator, alarms, and others ,which are then group labeled as alarm, non life-threatening, potentially life threatening, and fire. </p>      
+                            <div class="mh-about-tag">
+                                <ul>
+                                    <li><span>Tableau</span></li>
+                                    <li><span>d3.js</span></li>
+                                    <li><span>pandas</span></li>
+                                    <li><span>numpy</span></li>
+                                    <li><span>Git</span></li>
+                                </ul>
+                            </div>
+                            <a href="https://usf-cs360-2017.github.io/midterm-mcs/index.html" target="_blank" class="btn btn-fill">Project Website</a>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="mh-portfolio-modal-img">
+                                <img src="assets/images/proj-sf-fire-dept-viz.JPG" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mh-portfolio-modal" id="simpsons">
+                <div class="container">
+                    <div class="row mh-portfolio-modal-inner">
+                        <div class="col-sm-5">
+                            <h2>Simulating Simpson's Paradox</h2>
+                            <p>This project focused on simulating the Simpson's paradox in a large scale simulated healthcare dataset. The dataset we worked with was created by reverse engineering admission histories and engineering analytical features from simulated data sources on an existing dataset about hospital readmission rates for diabetic patients. The simulated data sources include grocery purchases and wearable vital sign sensors and were used to engineer features such as percent calories from carbohydrates and minutes spent walking. In order to simulate Simpson's paradox, we extended this dataset by adding a genetic trait to act as a statistical confounder.</p>             
+                            <div class="mh-about-tag">
+                                <ul>
+                                    <li><span>R</span></li>
+                                    <li><span>Exploratory Data Analysis</span></li>
+                                    <li><span>Simulation</span></li>
+                                    <li><span>Statistics</span></li>
+                                    <li><span>Git</span></li>
+                                </ul>
+                            </div>
+                            <a href="assets/simpsons-project.pdf" target="_blank" class="btn btn-fill">Project Poster</a>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="mh-portfolio-modal-img">
+                                <img src="assets/images/proj-simpsons.png" alt="" class="img-fluid">  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mh-portfolio-modal" id="tree-maintenance">
+                <div class="container">
+                    <div class="row mh-portfolio-modal-inner">
+                        <div class="col-sm-5">
+                            <h2>SF Tree Maintenance Service Requests</h2>
+                            <p>TThe datasets used in this visualization are from SF OpenData - geographical data showing the different supervisorial districts in SF and Tree Maintenance Data. </p>       
+                            
+                            <p>The data was subsetted to focus on service requests which are still "open". The data is visualized using a Non-Proportional Symbol Map.</p>      
+                            <div class="mh-about-tag">
+                                <ul>
+                                    <li><span>d3.js</span></li>
+                                    <li><span>Data Preprocessing</span></li>
+                                    <li><span>Map Data Visualization</span></li>
+                                    <li><span>Interactive Data Visualization</span></li>
+                                    <li><span>Git</span></li>
+                                </ul>
+                            </div>
+                            <a href="https://usf-cs360-2017.github.io/homework3-chezka-sino/" target="_blank" class="btn btn-fill">Project Website</a>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="mh-portfolio-modal-img">
+                                <img src="assets/images/proj-sf-tree-viz.JPG" alt="" class="img-fluid"> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mh-portfolio-modal" id="java-hierarchy">
+                <div class="container">
+                    <div class="row mh-portfolio-modal-inner">
+                        <div class="col-sm-5">
+                            <h2>Java 8 API Visualization</h2>
+                            <p>The hierarchical data used for the different visualizations is the Java 8 API hierarchy. The CSV file with the Java 8 hierarchy is from the Java 8 SDK Documentation. Different hierarchical visualization techniques are used to visualize the data.</p>       
+                            
+                            <p>The different hierarchy visualizations include Traditional Node Layout with Straight Edges, Circular Dendogram Node Layout with Curved Edges, Circle Packing and Treemap </p>      
+                            <div class="mh-about-tag">
+                                <ul>
+                                    <li><span>d3.js</span></li>
+                                    <li><span>Hierarchical Data Visualization</span></li>
+                                    <li><span>Interactive Data Visualization</span></li>
+                                    <li><span>Git</span></li>
+                                </ul>
+                            </div>
+                            <a href="https://usf-cs360-2017.github.io/homework4-chezka-sino" target="_blank" class="btn btn-fill">Project Website</a>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="mh-portfolio-modal-img">
+                                <img src="assets/images/proj-java-viz.JPG" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="mh-portfolio-modal" id="mh">
                 <div class="container">
                     <div class="row mh-portfolio-modal-inner">
@@ -833,7 +936,7 @@
                                     <li><span>Git</span></li>
                                 </ul>
                             </div>
-                            <a href="https://github.com/chezka-sino/volcano-eruption" class="btn btn-fill">Project Repository</a>
+                            <a href="https://github.com/chezka-sino/volcano-eruption" target="_blank" class="btn btn-fill">Project Repository</a>
                         </div>
                         <div class="col-sm-7">
                             <div class="mh-portfolio-modal-img">
