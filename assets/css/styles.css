@@ -2689,3 +2689,15 @@ BLOG Pagination
   margin-bottom: 30px; }
 
 /*# sourceMappingURL=styles.css.map */
+
+/* Find the section for professional skills progress circles */
+.mh-progress.mh-progress-circle {
+    /* ... existing styles ... */
+}
+
+/* Add these styles to match the technical skills percentage font */
+.mh-progress.mh-progress-circle::after {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    /* Add any other font properties to match technical skills */
+}
